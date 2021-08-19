@@ -19,6 +19,13 @@ npm install
 npm run dev
 ```
 
+**Comandos Knex.JS:**
+
+```
+Migrates: npx knex migrate:latest
+Seeds: npx knex seed:run
+```
+
 ## 🧔🏻👩🏾 Resumo: 
 
 API contruída para o desafio backend da player2. O objetivo é que um usuário cadastre, empresas em uma aplicação. 
@@ -34,13 +41,14 @@ API contruída para o desafio backend da player2. O objetivo é que um usuário 
 - Dotenv
 - BcryptJS
 - Axios
+- JSON Web Token
 
 
 ## 📋 Especificações:
 
 **Backend**
 
-- Arquivo de configuração do Knex
+- Arquivo de configuração do Knex.js
 - Pasta controller contendo os controllers do usuário e da empresa. 
 - Pasta database contentdo as migrations e seeders.
 - Pasta config com as credenciais para acesso ao banco de dados.
