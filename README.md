@@ -28,7 +28,7 @@ Seeds: npx knex seed:run
 
 ## 🧔🏻👩🏾 Resumo: 
 
-API contruída para o desafio backend da player2. O objetivo é que um usuário cadastre, empresas em uma aplicação. 
+API contruída para o desafio backend da player2. O objetivo dessa aplicação é o cadastro de empresas dentro da aplicação, fazendo isso através do CNPJ da mesma. 
 
 ## 🖥 Linguagem, pacotes e ferramentas utilizadas:
 
