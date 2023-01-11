@@ -15,7 +15,6 @@ module.exports = {
             if(!userObj) {
                 res.status(404);
                 res.json({
-                    status: 404,
                     message: "Error when try login at application: email cannot be found!"
                 });
 
@@ -27,7 +26,6 @@ module.exports = {
             if(!result) {
                 res.status(404);
                 res.json({
-                    status: 404,
                     message: "Error when try login at application: password cannot be found!"
                 });
             }
